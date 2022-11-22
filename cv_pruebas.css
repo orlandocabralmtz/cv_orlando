@@ -1,0 +1,185 @@
+body {
+    background-color: beige;
+    border-style: dotted;
+    border: 5px solid black;
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}
+
+.head img{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    transition-duration: 1000ms;
+}
+
+.foto:hover {
+    width: 400px;
+    height: 400px;
+}
+
+.head h2{
+    margin: 0;
+    letter-spacing: 7px;
+}
+
+.nombres{ 
+    padding: 20px;
+    flex-flow: row wrap;    
+    width: 600px;
+    align-items: center;
+}
+#apellido {
+    color: purple;
+    cursor: pointer;
+    /* transition-duration: 1000ms; */
+}
+
+/* #apellido:hover{
+    color: aqua;
+    font-size: 50px;
+} */
+
+#job{
+    font-size: 12px;
+}
+
+.head {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    display: flex;
+    align-items: stretch;
+}
+.container h3 { 
+    text-align: center;
+    
+}
+.container h4 {
+padding-left: 1cm;
+}
+
+.datos{
+    border:1px solid black;
+    transition: 1000ms;
+}
+
+.custom li:nth-child(1)::marker{
+content: '📍';
+}
+.custom li:nth-child(2)::marker{
+    content: '📞';
+}
+.custom li:nth-child(3)::marker{
+    content: '✉️';
+}
+.custom li:nth-child(4)::marker{
+    content: '💻';
+} 
+
+.datos  ul li{
+    margin: 5px;
+
+}
+.datos ul li:hover{
+    font-size: 22px;
+}
+
+.objetivos{
+    
+    border:1px solid black;
+}
+.objetivos p{   
+    padding-left: 1cm;
+}
+
+.experiencia {
+    padding-left: 1cm;
+    border:1px solid black;
+    
+}
+
+.experiencia2{
+    padding-left: 1cm;
+    border:1px solid black;
+}
+
+
+/* aside{
+    color: black;
+    font-size: 20px;
+}
+
+h1{
+    color: blue;
+    font-size: 50px;
+    font-weight: 100;
+} 
+
+
+
+
+
+ --- ESTO NO IMPORTA POR QUE FUE FE PRUEBA    h2{    
+    color: red;
+    font-size: 40px;
+}
+
+aside div article h4{
+    color: yellow;
+    font-size: 40px;
+}
+
+.section1 {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+
+.hijo1{
+    background-color: green;
+}
+
+.hijo1 h3{
+    color: pink;
+    font-size: 100px;
+}
+
+.hijo2 {
+    background-color: purple;
+}
+
+.hijo2 h3{
+    color: pink;
+    font-size: 100px;
+}
+
+.limpio {
+    text-decoration: none;
+    color: black;
+
+}
+
+#texto1 {
+    color: brown;
+    font-size: 200%;
+    font-family: sans-serif ;
+}
+  h4{
+    color: black;
+    font-size: 60px;
+}  */
